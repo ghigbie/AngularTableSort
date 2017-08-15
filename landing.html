@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="codecraft">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/stylesheets/app.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a classs="navbar-brand" href="/">List of Things - Angular Playground</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container main-content" ng-controller="CodeCraftCtrl">
+    <table class="table table-bordered">
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Birthdate</th>
+
+        <tr ng-repeat="person in persons">
+        <tr>{{ $index }}</tr>
+        <tr>{{ person.name }}</tr>
+        <tr>{{ person.email }}</tr>
+        <tr>{{ person.birthdate | date: MM-dd-yyyy }}</tr>
+        </tr>
+    </table>
+</div>
+
+<script src="./node_modules/angular/angular.min.js"></script>
+<script src="./node_modules/angular-route/angular-route.min.js"></script>
+<script src="./modules/codecraft.js"></script>
+<script src="./controllers/CodeCraftCtrl.js"></script>
+</body>
+</html>
