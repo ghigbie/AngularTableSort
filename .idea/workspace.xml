@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9321a94-c999-443e-a0ac-7de155bdb7c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/codecraft.js" afterPath="$PROJECT_DIR$/modules/codecraft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CodeCraftCtrl.js" afterPath="$PROJECT_DIR$/controllers/CodeCraftCtrl.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="codecraft.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="codecraft.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/codecraft.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeCraftCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/CodeCraftCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -35,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/modules/codecraft.js" />
+        <option value="$PROJECT_DIR$/controllers/CodeCraftCtrl.js" />
       </list>
     </option>
   </component>
@@ -52,8 +63,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="49" />
+    <option name="x" value="197" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="778" />
   </component>
@@ -81,6 +92,11 @@
             <path>
               <item name="table" type="b2602c69:ProjectViewProjectNode" />
               <item name="table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="table" type="b2602c69:ProjectViewProjectNode" />
+              <item name="table" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="table" type="b2602c69:ProjectViewProjectNode" />
@@ -120,15 +136,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502769135996</updated>
-      <workItem from="1502769137204" duration="652000" />
+      <workItem from="1502769137204" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="652000" />
+    <option name="totallyTimeSpent" value="847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="49" width="1400" height="778" extended-state="0" />
+    <frame x="197" y="45" width="1400" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17766498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -164,6 +180,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CodeCraftCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
