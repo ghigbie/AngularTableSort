@@ -14,7 +14,7 @@
         };
 
         $scope.sensitiveSearch = function(person) {
-            if (scope.search) {
+            if ($scope.search) {
                 return person.name.indexOf($scope.search) === 0 ||
                     person.email.indexOf($scope.search) === 0;
             }

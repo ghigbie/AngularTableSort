@@ -58,7 +58,12 @@
         </th>
         <th>Birthdate</th>
 
-        <tr ng-repeat="person in persons">
+        <tr ng-repeat="person in filteredPersons = (persons | filter: sensitiveSearch | orderBy: order)"
+            ng-cloak
+            ng-style="{
+                'background-color' : $index === selectedIndex ? '#c9ddfc' : ''
+            }"
+            ng-click="selectPerson(person)">
             <td>{{ $index + 1 }}</td>
             <td>{{ person.name }}</td>
             <td>{{ person.email }}</td>
