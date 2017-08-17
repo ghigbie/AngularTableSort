@@ -4,7 +4,7 @@
      */
     var CodeCraftCtrl = function($scope){
         $scope.selectedPerson = null;
-        $scope.selectedIndex = index;
+        $scope.selectedIndex = null;
         $scope.search = "";
         $scope.order = "";
 
@@ -927,7 +927,7 @@
        ];
     };
 
-    CodeCraftCtrl.$inject('$scope');
+    CodeCraftCtrl.$inject = ['$scope'];
 
     angular.module('codecraft')
         .controller('CodeCraftCtrl', CodeCraftCtrl);
