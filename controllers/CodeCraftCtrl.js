@@ -907,5 +907,5 @@
     CodeCraftCtrl.$inject('$scope');
 
     angular.module('codecraft')
-        .controller('CodeCraftCntrl', CodeCraftCtrl);
+        .controller('CodeCraftCtrl', CodeCraftCtrl);
 }());
