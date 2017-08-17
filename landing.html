@@ -18,8 +18,13 @@
 <div class="container main-content" ng-controller="CodeCraftCtrl">
     <table class="table table-bordered">
         <th>#</th>
-        <th>Name</th>
+        <th>Name
+            <span ng-click="order = 'name'" class="glyphicon glyphicon-menu-up">></span>
+            <span ng-click="order = '-name'" class="glyphicon glyphicon-menu-down">></span>
+        </th>
         <th>Email</th>
+            <span ng-click="order = 'email'" class="glyphicon glyphicon-menu-up">></span>
+            <span ng-click="order = '-email'" class="glyphicon glyphicon-menu-down">></span>
         <th>Birthdate</th>
 
         <tr ng-repeat="person in persons">
